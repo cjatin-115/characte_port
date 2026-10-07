@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "data": [
+    {
+      "slug": "miraaj",
+      "title": "Miraaj",
+      "status": "published",
+      "summary": "ReelForge AI (Miraaj) is a functional prototype for planning and editing vertical videos, with AI-assisted script and scene planning.",
+      "approach": "A project and dashboard workflow connects AI-assisted script and scene planning with a vertical-video editor.",
+      "implementation": "The Next.js application supports scene and layer editing with undo/redo, uses Supabase for persistence and authentication, and includes Remotion-related rendering infrastructure. The video-generation pipeline works (owner-confirmed).",
+      "technologies": ["Next.js", "Supabase", "Remotion"],
+      "limitations": "This is a development-stage prototype. Production deployment has not been verified."
+    },
+    {
+      "slug": "vetra",
+      "title": "Vetra",
+      "status": "not-ready",
+      "repository": "https://github.com/cjatin-115/Vetra"
+    },
+    {
+      "slug": "seika",
+      "title": "Seika",
+      "status": "not-ready",
+      "repository": "https://github.com/cjatin-115/seika"
+    },
+    {
+      "slug": "ikigai",
+      "title": "Ikigai",
+      "status": "not-ready"
+    },
+    {
+      "slug": "forecast-buster",
+      "title": "Forecast-Buster",
+      "status": "published",
+      "summary": "Forecast-Guard AI, associated with Problem Statement 26079, is a functional prototype for exploring weather forecast bust risk across an interactive India grid.",
+      "problem": "Estimate the risk of a weather forecast bust over a forecast horizon.",
+      "approach": "The prototype includes spatial feature engineering, XGBoost training, isotonic calibration, nearest-neighbour analog code, and SHAP-related explanation code.",
+      "implementation": "The system pairs a React/Vite dashboard with a Python/FastAPI service and uses local JSON, CSV, and joblib artifacts.",
+      "solution": "The dashboard presents forecast bust risk spatially so a visitor can select a day or hazard and inspect risk summaries and cell-level information. Static mode does not provide the full live cell-drilldown experience.",
+      "technologies": ["Python", "FastAPI", "React", "Vite", "XGBoost"],
+      "limitations": "Live Open-Meteo fetching and real observed historical training data were not verified. Reported metrics are not confirmed as real-world evaluation; the training pipeline may contain feature/data leakage. Explanations are static rather than computed SHAP values, and the sync button’s backend behavior is unverified. Production deployment, database, and authentication were not verified."
+    },
+    {
+      "slug": "luma",
+      "title": "Luma / LedgerOS",
+      "status": "not-ready",
+      "repository": "https://github.com/cjatin-115/ledger_os"
+    }
+  ]
+}

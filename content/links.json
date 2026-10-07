@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "data": [
+    { "label": "GITHUB ↗", "href": "https://github.com/cjatin-115", "external": true },
+    { "label": "LINKEDIN ↗", "href": "https://www.linkedin.com/in/jatin-choudhary-bvcoe", "external": true },
+    { "label": "INSTAGRAM ↗", "href": "https://www.instagram.com/cjatin_115", "external": true },
+    { "label": "KAGGLE ↗", "href": "https://www.kaggle.com/educon015", "external": true },
+    { "label": "CJATIN015@GMAIL.COM ↗", "href": "mailto:cjatin015@gmail.com", "external": false }
+  ]
+}
